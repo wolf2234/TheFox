@@ -184,6 +184,7 @@ header {
 
 .btn-icon-compass {
     margin-right: 10px;
+    font-weight: 700;
     vertical-align: middle;
 }
 .button img {
@@ -202,35 +203,155 @@ header {
     margin-bottom: 90px;
     padding: 90px 0;
     background-color: #222533;
+    color: #ffffff;
 }
 
-.users,
-.threads,
-.hours,
-.coffee {
+
+.statistic-block {
+    margin-right: 160px;
     display: inline-block;
+    text-align: center;
 }
 
-
-.users__numbers {
-    display: block;
+.statistic-block p {
+    color: #ffffff;
 }
 
-.threads__numbers {
-    display: block;
+.statistic-block:first-child {
+    margin-left: 0px;
 }
 
-.hours__numbers {
-    display: block;
+.statistic-block:last-child {
+    margin-right: 0px;
 }
 
-.coffee__numbers {
+.numbers {
     display: block;
+    font-size: 36px;
+}
+
+.description {
+    font-weight: 300;
+    color: rgb(161, 177, 188);
 }
 
 .white-line {
     width: 30px;
     height: 2px;
     margin: 15px auto 15px;
-    background-color: #ffffff;
+    background-color: #fff;
 }
+
+.statistic__image {
+    margin-bottom: 25px;
+}
+
+.details {
+    background-color: #ff4e50;
+    color: #fff;
+    height: 150px;
+    padding: 40px 368px;
+}
+.detail-block {
+    padding: 10px 5px 10px 8px;
+}
+.details__text {
+    display: inline;
+    font-size: 24px;
+    margin-right: 238px;
+    text-align: left;
+}
+.details__btn {
+    display: inline;
+}
+
+.woo-commerce {
+    height: 935px;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.woo-text {
+    color: #a1b1bc;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    font-family: Lato;
+    width: 42%;
+    margin: 0 auto 80px;
+}
+
+.woo-text h3 {
+    font-weight: 700;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+.woo-logo {
+    margin-bottom: 24px;
+}
+
+.woo-img {
+    overflow: hidden;
+    height: 640px;
+}
+
+
+.wow-img-wrapper {
+    display: none;
+}
+
+
+
+.layout-info {
+    background-color: #222533;
+    text-align: center;
+    padding: 3.5% 0;
+}
+
+.white {
+    color: #fff;
+}
+.layout {
+    height: 100%;
+    width: 100%;
+}
+.layout-info__block {
+    margin: 0 auto;
+    text-align: center;
+    width: 43%;
+}
+
+.layout-pages {
+    background-image: url('../img/layouts.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    background-position: 0% 0%;
+    padding: 40px 100px;
+}
+
+.pages {
+    margin: 36px auto;
+    width: 80%;
+}
+
+.page {
+    display: inline-block;
+    width: 310px;
+    margin: 0 0 69px 0px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.page h2 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.layout-image {
+    margin-bottom: 29px;
+}
+
+
