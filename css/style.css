@@ -249,7 +249,8 @@ header {
 .details {
     background-color: #ff4e50;
     color: #fff;
-    height: 150px;
+    height: 100%;
+    width: 100%;
     padding: 40px 368px;
 }
 .detail-block {
@@ -304,6 +305,8 @@ header {
 
 
 
+
+
 .layout-info {
     background-color: #222533;
     text-align: center;
@@ -354,4 +357,132 @@ header {
     margin-bottom: 29px;
 }
 
+.stunning-demo {
+    padding: 30px 0;
+}
 
+.stunning-demo__text {
+    width: 800px;
+    margin: 0 auto 70px;
+}
+
+.stunning-demo__pages {
+    overflow: auto;
+    height: 800px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.stunning-demo__page {
+    display: inline-block;
+    margin: 0 0 50px 30px;
+}
+
+.stunning-demo__page h3 {
+    color: #2c3e50;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.stunning-demo__page img {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #222533;
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    padding: 50px;
+}
+
+.null-style-links,
+.null-style-links:hover,
+.null-style-links:active {
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+}
+
+.purple {
+    background-color: #4e459a;
+}
+
+.blue {    
+    background-color: #63d8ff;
+}
+
+.green {
+    background-color: #acd373;
+}
+
+.color-blocks {
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    max-width: 1800px;
+    min-width: 300px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.color-block h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.color-block p {
+    font-size: 15px;
+    margin-bottom: 23px;
+}
+
+.color-block button {
+    font-weight: 700;
+    margin: 0;
+}
+
+
+.color-block {
+    display: inline-block;
+    text-align: left;
+    padding: 75px;
+    max-width: 600px;
+    min-width: 200px;
+    min-height: 100px;
+    margin: 0 0 0 -4px;
+    vertical-align: top;
+}
+
+.links {
+    background-color: #222533;
+    color: #a1b1bc;
+    padding: 80px;
+    height: 100%;
+    width: 100%;
+    min-height: 400px;
+}
+
+.links ul li::before {
+    content: url('../img/cubic_li.jpg');
+    margin-right: 10px;
+}
+
+.links ul li {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.links ul {
+    width: 65%;
+    margin: 0 auto;
+    min-width: 600px;
+}
+
+.links a,
+.links a:hover,
+.links a:active {
+    text-decoration: none;
+    list-style: none;
+    color: #a1b1bc;
+}
