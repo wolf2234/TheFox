@@ -1,5 +1,5 @@
 header {
-    background-image: url('/img/landing_header.jpg');
+    background-image: url('/TheFox/img/landing_header.jpg');
     height: 940px;
     background-size: cover;
 }
@@ -144,7 +144,7 @@ header {
 
 
 .feature-info h3::before {
-    content: url('../img/atom_icon.png');
+    content: url('/TheFox/img/atom_icon.png');
     vertical-align: top;
     margin-right: 20px;
 }
@@ -327,7 +327,7 @@ header {
 }
 
 .layout-pages {
-    background-image: url('../img/layouts.jpg');
+    background-image: url('/TheFox/img/layouts.jpg');
     background-repeat: no-repeat;
     background-size: 100% 90%;
     background-position: 0% 0%;
@@ -457,7 +457,7 @@ header {
 }
 
 .links ul li::before {
-    content: url('../img/cubic_li.jpg');
+    content: url('/TheFox/img/cubic_li.jpg');
     margin-right: 15px;
 }
 
@@ -504,10 +504,12 @@ header {
     text-align: left;
     margin-right: 500px;
 }
+
 .social-links {
     display: inline-block;
     text-align: right;
 }
+
 .social-links li {
     display: inline-block;
     margin-right: 10px;
