@@ -1,5 +1,86 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('TheFox/Lato-Bold.woff2') format('woff2'), 
+        url('TheFox/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style:normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('TheFox/Lato-BoldItalic.woff2') format('woff2'), 
+        url('TheFox/Lato-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style:italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('TheFox/Lato-ThinItalic.woff2') format('woff2'), 
+        url('TheFox/Lato-ThinItalic.woff') format('woff');
+    font-weight: thin;
+    font-style:italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('TheFox/Lato-Light.woff2') format('woff2'), 
+        url('TheFox/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('TheFox/Lato-Italic.woff2') format('woff2'), 
+        url('TheFox/Lato-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style:italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('TheFox/Lato-Regular.woff2') format('woff2'), 
+        url('TheFox/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style:normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('TheFox/Lato-BlackItalic.woff2') format('woff2'), 
+        url('TheFox/Lato-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style:italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('TheFox/Lato-Thin.woff2') format('woff2'), 
+        url('TheFox/Lato-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style:normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('TheFox/Lato-Black.woff2') format('woff2'), 
+        url('TheFox/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style:normal;
+    font-display: swap;
+}
+
 header {
-    background-image: url('/TheFox/img/landing_header.jpg');
+    background-image: url('TheFox/img/landing_header.jpg');
     height: 940px;
     background-size: cover;
 }
@@ -7,6 +88,10 @@ header {
 .container {
     width: 100%;
     text-align: center;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: ;
 }
 
 .image {
@@ -24,7 +109,9 @@ header {
     text-transform: uppercase;
     font-size: 13px;
     width: 800px;
-    font-weight: 900;
+    font-family: 'Lato';
+    font-style: normal;;
+    font-weight: 800;
     vertical-align: middle;
     font-family: verdana, arial, sans-serif;
 }
@@ -54,7 +141,7 @@ header {
 }
 
 .section-title {
-    color: #fff;
+    color: #dad5d5;
     text-align: center;
     font-size: 24px;
     margin: 14% 0 25%;
@@ -115,7 +202,9 @@ header {
     font-size: 30px;
     text-transform: uppercase;
     color: #2c3e50;
-    font-weight: 700;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-style: normal;
 }
 
 .features__title {
@@ -144,7 +233,7 @@ header {
 
 
 .feature-info h3::before {
-    content: url('/TheFox/img/atom_icon.png');
+    content: url('TheFox/img/atom_icon.png');
     vertical-align: top;
     margin-right: 20px;
 }
@@ -164,6 +253,9 @@ header {
     margin-bottom: 90px;
     padding: 90px 0;
     background-color: #f9fafb;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
 }
 
 .support-about {
@@ -251,7 +343,7 @@ header {
     color: #fff;
     height: 100%;
     width: 100%;
-    padding: 40px 368px;
+    padding: 40px 360px;
 }
 .detail-block {
     padding: 10px 5px 10px 8px;
@@ -327,7 +419,7 @@ header {
 }
 
 .layout-pages {
-    background-image: url('/TheFox/img/layouts.jpg');
+    background-image: url('TheFox/img/layouts.jpg');
     background-repeat: no-repeat;
     background-size: 100% 90%;
     background-position: 0% 0%;
@@ -457,8 +549,8 @@ header {
 }
 
 .links ul li::before {
-    content: url('/TheFox/img/cubic_li.jpg');
-    margin-right: 15px;
+    content: url('TheFox/img/cubic_li.jpg');
+    margin-right: 14px;
 }
 
 .links ul li {
