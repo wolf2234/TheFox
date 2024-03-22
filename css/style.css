@@ -504,6 +504,7 @@ header {
 .color-blocks {
     padding: 0;
     width: 100%;
+    font-size: 0px;
     text-align: left;
     max-width: 1800px;
     min-width: 300px;
@@ -513,7 +514,7 @@ header {
 }
 
 .color-block h3 {
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 15px;
 }
 
@@ -535,8 +536,8 @@ header {
     max-width: 600px;
     min-width: 200px;
     min-height: 100px;
-    margin: 0 0 0 -4px;
     vertical-align: top;
+    font-size: 10px;
 }
 
 .links {
